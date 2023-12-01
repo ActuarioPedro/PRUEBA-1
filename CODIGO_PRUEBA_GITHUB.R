@@ -14,3 +14,5 @@ n_factorial <- function(n) {
 combinaciones_n_en_m <- function(n,m){
   return(n_factorial(n)/n_factorial(m-n)*factorial(m))
 }
+
+#Saludos Banda!!
