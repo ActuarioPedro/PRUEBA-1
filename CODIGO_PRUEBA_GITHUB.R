@@ -2,7 +2,7 @@ print("Hola, mundo!")
 
 #Función Factorial
 
-mi_factorial <- function(n) {
+n_factorial <- function(n) {
   if (n == 0) {
     return(1)
   } else {
@@ -10,3 +10,7 @@ mi_factorial <- function(n) {
   }
 }
 
+#Combinaciones de n en m
+combinaciones_n_en_m <- function(n,m){
+  return(n_factorial(n)/n_factorial(m-n)*factorial(m))
+}
